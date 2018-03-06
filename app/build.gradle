@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    //buildToolsVersion "26.0.2"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "wlhwh.example.com.autodrive"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/rxjava.xml'
+        exclude 'META-INF/rxjava.properties'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:27.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    //加入material design
+    compile 'com.android.support:design:27.1.0'
+    //Bmob相关依赖
+    compile 'cn.bmob.android:bmob-sdk:3.5.3'
+    //如果你想应用能够兼容Android6.0，请添加此依赖(org.apache.http.legacy.jar)
+    compile 'cn.bmob.android:http-legacy:1.0'
+    compile 'cn.bmob.android:bmob-push:0.8'
+    //高德地图的依赖
+    compile files('libs/AMap3DMap_5.0.0_AMapNavi_5.0.0_AMapSearch_5.0.0_AMapLocation_3.3.0_20170321.jar')
+    //悬浮按钮依赖
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    //圆形头像的 依赖
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    //rx permissions运行权限依赖
+    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.1.0'
+}

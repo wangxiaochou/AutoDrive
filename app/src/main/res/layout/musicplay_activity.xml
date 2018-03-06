@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/playing_music_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <wlhwh.example.com.autodrive.ui.music.CircleProgressBar
+            xmlns:cp="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circleprogressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            cp:radius="140dp"
+            cp:strokeWidth="8dp"
+            cp:ringColor="#FF80AB" />
+
+        <ImageView
+            android:id="@+id/music_play_icon"
+            android:src="@drawable/music_play"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"/>
+
+        <ImageView
+            android:id="@+id/music_stop_icon"
+            android:src="@drawable/music_stop"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

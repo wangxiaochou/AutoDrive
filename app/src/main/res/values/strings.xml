@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">AutoDrive</string>
+
+    <!--这是登录页面的string-->
+    <string name="hint_account">Name</string>
+    <string name="hint_password">Password</string>
+    <string name="login">登录</string>
+    <string name="sign_up">没有账号? 立即注册</string>
+
+    <!--这是注册页面的string-->
+    <string name="sign">已有账号,立即登录</string>
+    <string name="signup">注册</string>
+    <string name="signup_name">name</string>
+    <string name="signup_email">email</string>
+    <string name="signup_phone">phone</string>
+    <string name="signup_password">password</string>
+
+    <!--这是车的页面的string-->
+    <string name="car">Car</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="car_door_tv">车门解锁</string>
+    <string name="car_engie_tv">发动机已启动</string>
+
+    <string name="car_oil_tv">油量：30 L</string>
+    <string name="car_milesleft_tv">可行驶：180 km</string>
+
+    <string name="car_watertemperature_tv">实时：90℃</string>
+    <string name="car_watercapacity_tv">冷却液：70%</string>
+
+    <string name="car_battery_tv">电量：70%</string>
+    <string name="car_batterytime_tv">可使用：32 h</string>
+
+    <string name="car_tire_location_tv">前 左</string>
+    <string name="car_tire_pressure_tv">250 kpa</string>
+    
+    <string name="car_engine_running_tv">运行正常</string>
+    <string name="car_engine_block_tv">缸体正常</string>
+    
+    <string name="car_engine_oil_remain_tv">机油量：3.8 L</string>
+    <string name="car_engine_oil_time_tv">机油量正常</string>
+
+    <string name="car_engine_chassis_tv">传动正常</string>
+    <string name="car_engine_chassis_structure_tv">制动正常</string>
+
+    <string name="car_xinghao_tv">918 Spyder</string>
+    <string name="car_yixingshi_tv">已行驶：23768 km</string>
+    <string name="car_baoyang_tv">距离下次保养：2 个月</string>
+
+    <!--左侧导航栏的string-->
+    <string name="nav_settings">设置</string>
+    <string name="nav_share">分享</string>
+    <string name="nav_money">打赏</string>
+    <string name="nav_menu_offline">退出登录</string>
+    <string name="nav_menu_chaxun">违章查询</string>
+
+
+    <!--违章查询-->
+    <string name="chaxundi">查询地</string>
+    <string name="chepaihao">车牌号</string>
+    <string name="chejiahao">车架号</string>
+    <string name="fadongjihao">发动机号</string>
+
+    <!--违章查询结果-->
+    <string name="toolbar_jieguo">违章查询结果</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/nav_share"
+            android:title="@string/nav_share" />
+        <item
+            android:id="@+id/nav_money"
+            android:icon="@drawable/nav_money"
+            android:title="@string/nav_money" />
+        <item
+            android:id="@+id/nav_menu_chaxun"
+            android:icon="@drawable/vector_drawable_chaxun"
+            android:title="@string/nav_menu_chaxun" />
+        <item
+            android:id="@+id/nav_menu_offline"
+            android:icon="@drawable/offline"
+            android:title="@string/nav_menu_offline" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+        </menu>
+    </item>
+
+</menu>

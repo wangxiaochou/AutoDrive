@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#E0E0E0</color>
+    <!--这是点缀使用的突出颜色-->
+    <color name="colorAccent">#FF4081</color>
+
+    <!--这是点缀使用的突出颜色-->
+    <color name="A100">#FF80AB</color>
+
+    <!--这是悬浮按钮点击之后的颜色-->
+    <color name="fab_color_pressed">#F8BBD0</color>
+
+    <!--这是大部分控件的背景颜色-->
+    <color name="background">#FFFFFF</color>
+
+    <color name="circle">#E3F2FD</color>
+
+    <!--这是黑色字体的颜色-->
+    <color name="font">#000000</color>
+    <!--灰色字体颜色-->
+    <color name="font_gray">#707070</color>
+    <!--这是亮色字体颜色-->
+    <color name="light_font">#F5F5F5</color>
+
+    <!--这是定位圆圈的颜色-->
+    <color name="strokecolor">#4FC3F7</color>
+</resources>

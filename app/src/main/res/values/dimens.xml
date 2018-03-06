@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--这里是关于沉浸式状态栏的，主要是状态栏的高度-->
+    <dimen name="toolbar_padding_top">25dp</dimen>
+</resources>
